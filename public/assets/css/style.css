@@ -6217,3 +6217,10 @@ del {
 .switch-wrap {
     margin-bottom: 10px;
 }
+
+
+/* for test  */
+
+.services-area{
+    background: url(../img/gallery/section_bg02.jpg)
+}
