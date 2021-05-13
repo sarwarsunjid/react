@@ -5,6 +5,7 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Categories from './pages/Categories'
 import Listing from './pages/Listing'
+import Contact from './pages/Contact'
 
 //Header 
 import Header from './components/Header'
@@ -15,8 +16,6 @@ import Footer from './components/Footer'
 import {BrowserRouter, Switch,Route, Router } from 'react-router-dom'
 
 //React router support
-
-
 function App() {
   return (
     <BrowserRouter>
@@ -27,6 +26,7 @@ function App() {
             <Route path='/about' component={About} />
             <Route path='/listing' component={Listing} />
             <Route path='/categories' component={Categories} />
+            <Route path='/contact' component={Contact} />
           </Switch>
         <Footer />
       </div>
